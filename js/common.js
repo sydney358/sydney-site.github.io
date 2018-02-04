@@ -17,6 +17,24 @@ $(document).ready(function(){
         $('body,html').animate({scrollTop: top}, 500);
     });
 });
+
+$(document).ready(function(){
+    $(".go_down").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 500);
+    });
+});
+
+$(document).ready(function(){
+    $(".go_to_portfolio").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 500);
+    });
+});
 // ---------scroll_to_top----------------
 $(document).ready(function() {
     /*
@@ -110,8 +128,14 @@ $('.some_clients').slick({
 ]
 });
 // -----------------mixItUp-----------------------
-var mixer = mixitup('.portfolio_content');
-
+var mixer = mixitup('.portfolio_content', {
+    selectors: {
+        target: '.pc_element'
+    },
+    animation: {
+        duration: 1000
+    }
+});
 // -----------------testi------------
 $('.testi_content').slick({
     arrows: false,

@@ -1,6 +1,7 @@
 html {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Lato', sans-serif;
+    font-family: 'Gotham', sans-serif;
 }
 .container {
     width: 76%;
@@ -36,7 +37,6 @@ html {
     background-image: url(../images/background.jpg);
     background-color: black;
     background-size: auto;
-    height: 100vh;
 }
 .home .header {
     padding-top: 3.6%;
@@ -50,6 +50,11 @@ html {
     font-weight: bold;
     text-transform: uppercase;
     z-index: 100;
+}
+.home .header .logo:hover {
+    -webkit-transform: rotateZ(20deg);
+    -ms-transform: rotateZ(20deg);
+    transform: rotateZ(20deg);
 }
 .home .header nav {
     display: inline-block;
@@ -127,8 +132,9 @@ html {
     }
 }
 .home .go_down {
-    margin: 19.6% auto 5.9%;
+    margin: 19.6% auto 0;
     text-align: center;
+    padding-bottom: 8.7%;
 }
 .home .go_down a {
     text-decoration: none;
@@ -152,20 +158,20 @@ html {
     margin-bottom: 8.77%;
 }
 .about .about_content .left_side {
-    margin-top: 8.8%;
     width: 80%;
 }
 .about .about_content .left_side img {
+    margin-top: 17.6%;
     width: 100%;
     height: auto;
 }
 .about .about_content .right_side {
-    margin-top: 8.8%;
     width: 60%;
     position: relative;
     left: -50px;
 }
 .about .about_content .right_side .pre-title {
+    margin-top: 20%;
     font-size: 20px;
     font-family: "Open Sans";
     color: #636363;
@@ -1094,6 +1100,8 @@ html {
     border: 1px solid #6c6c6c;
     outline-color: #fcac45;
     text-align: left;
+    box-sizing: border-box;
+    padding-left: 10px;
 }
 .contact form .input1 {
     height: 40px;
