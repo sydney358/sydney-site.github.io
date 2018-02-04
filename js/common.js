@@ -14,7 +14,16 @@ $(document).ready(function(){
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 500);
+        $('body,html').animate({scrollTop: top}, 600);
+    });
+});
+
+$(document).ready(function(){
+    $(".slicknav_menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 700);
     });
 });
 
@@ -23,7 +32,7 @@ $(document).ready(function(){
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 500);
+        $('body,html').animate({scrollTop: top}, 300);
     });
 });
 
@@ -32,7 +41,7 @@ $(document).ready(function(){
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 500);
+        $('body,html').animate({scrollTop: top}, 800);
     });
 });
 // ---------scroll_to_top----------------
