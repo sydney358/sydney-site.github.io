@@ -1,0 +1,893 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+body {
+    margin: 0;
+}
+body ::selection {
+    background: rgba(192, 48, 28, 0.4);
+}
+.container {
+    width: 71.25%;
+    margin: 0 auto;
+}
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
+.home {
+    background-image: url(../images/Home.png);
+    background-color: black;
+    background-size: cover;
+}
+.header {
+    padding: 2.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul {
+    list-style: none;
+    padding-right: 0;
+}
+.menu li {
+    display: inline;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    line-height: 1.714;
+}
+@media (max-width: 768px) {
+    .menu {
+        position: absolute;
+        right: 5%;
+    }
+    .menu li {
+        padding: 0;
+    }
+}
+.menu li a:hover {
+    color: #737983;
+}
+.home h1 {
+    padding-top: 16.25%;
+    font-size: 3em;
+    font-family: "Montserrat";
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.favorite {
+    padding-top: 1.25%;
+    font-size: 1.25em;
+    font-family: "Montserrat";
+    color: #ffffff;
+    line-height: 1.5;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .home h1 {
+        padding-top: 10%;
+        font-size: 2.2em;
+    }
+    .favorite {
+        margin: 3% auto;
+        font-size: 1em;
+    }
+}
+@media (max-width: 680px) {
+    .home h1 {
+        width: 55%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 2em;
+    }
+}
+@media (max-width: 580px) {
+    .home h1 {
+        font-size: 1.6em;
+    }
+    .favorite {
+        font-size: 0.87em;
+    }
+}
+@media (max-width: 480px) and (min-width: 360px) {
+    .home h1 {
+        font-size: 1.2em;
+    }
+    .favorite {
+        font-size: 0.7em;
+        width: 50%;
+    }
+}
+.btn {
+    text-align: center;
+    padding-bottom: 22.808%;
+}
+.get_button {
+    width: 180px;
+    margin: 3.2% auto 0;
+    background: none;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: #ffffff;
+    box-shadow: none;
+    cursor: pointer;
+    outline: none;
+}
+.get_button a {
+    font-size: 1.125em;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    line-height: 2.5;
+    text-align: center;
+    margin: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.get_button:hover {
+    background-color: #ffffff;
+}
+.get_button:hover a {
+    color: #c0301c;
+}
+@media (max-width: 680px) {
+    .get_button a {
+        font-size: 1em;
+        margin: 10px 15px;
+    }
+}
+@media (max-width: 480px) and (min-width: 360px) {
+    .get_button a {
+        font-size: 0.75em;
+        margin: 5px 10px;
+    }
+}
+h2 {
+    padding-top: 8.8%;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 400;
+    font-family: "Montserrat";
+    color: #555555;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0;
+}
+h2:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 4.4%;
+    background: #555555;
+    margin: 0 auto;
+    margin-top: 2.63%;
+}
+.subtitle {
+    padding-top: 2.63%;
+    font-size: 1em;
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    color: #555555;
+    line-height: 1.5;
+    text-align: center;
+}
+.services_columns {
+    padding-top: 6.14%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 8.77%;
+}
+.serv_column {
+    width: 29%;
+}
+@media (max-width: 768px) and (min-width: 360px) {
+    .services_columns {
+        flex-direction: column;
+    }
+    .serv_column {
+        width: 100%;
+        margin-top: 5%;
+    }
+}
+.serv_column i {
+    width: 35px;
+    height: 35px;
+    font-size: 2em;
+    color: #c0301c;
+    border-radius: 100%;
+    border: 2px solid #dfdfdf;
+    padding: 15px;
+}
+.serv_column i:hover {
+    color: #ffffff;
+    background-color: #c0301c;
+}
+h3 {
+    font-size: 0.87em;
+    font-weight: 400;
+    font-family: "Montserrat";
+    color: #555555;
+    text-transform: uppercase;
+    line-height: 1.71;
+}
+.services_text {
+    font-size: 0.87em;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    color: #555555;
+    line-height: 1.714;
+    text-align: justify;
+}
+.about_us {
+    background-color: #f8f8f8;
+}
+.about_us .about_columns {
+    padding-top: 6.14%;
+    display: flex;
+    justify-content: space-around;
+}
+.about_us .about_columns .about_column {
+    width: 48.24%;
+    font-size: 0.87em;
+    font-family: "Roboto Slab";
+    color: #555555;
+    line-height: 1.714;
+    text-align: left;
+    text-indent: 20px;
+}
+@media (max-width: 768px) and (min-width: 360px) {
+    .about_us .about_columns {
+        display: flex;
+        flex-direction: column;
+    }
+    .about_us .about_columns .about_column {
+        width: 100%;
+        margin-top: 2%;
+    }
+}
+.about_us .team {
+    padding-top: 6.14%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8.77%;
+}
+.about_us .team .teammen {
+    text-align: center;
+    width: 20%;
+    margin: 0 0.5%;
+}
+.about_us .team img {
+    background-color: black;
+    height: auto;
+    width: 100%;
+}
+.about_us .team .figure {
+    position: relative;
+}
+.about_us .team .figcaption {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(85, 85, 85, 0.5);
+}
+.about_us .team .figcaption a {
+    text-decoration: none;
+}
+.about_us .team .figcaption i {
+    color: #ffffff;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    margin-top: 73%;
+    opacity: 0.9;
+}
+.about_us .team .figcaption i:hover {
+    color: #ffffff;
+    background-color: #c0301c;
+}
+.about_us .team .figure:hover .figcaption {
+    display: inline-block;
+    opacity: 0.9;
+}
+.about_us .fa-chevron-right {
+    margin-top: 10%;
+    position: absolute;
+    right: 1.5%;
+    z-index: 100;
+}
+.about_us .fa-chevron-left {
+    margin-top: 10%;
+    position: absolute;
+    left: 1.7%;
+    z-index: 100;
+}
+.about_us .fa-chevron-left:before,
+.about_us .fa-chevron-right:before {
+    color: #dddddd;
+    background-color: #555555;
+    opacity: 0.2;
+    padding: 10px;
+}
+.about_us .fa-chevron-left:hover:before,
+.about_us .fa-chevron-right:hover:before {
+    background-color: #c0301c;
+    opacity: 0.7;
+}
+@media (max-width: 860px) {
+    .about_us .fa-chevron-left {
+        margin-top: 20%;
+        left: 3%;
+    }
+    .about_us .fa-chevron-right {
+        margin-top: 20%;
+        right: 3%;
+    }
+}
+@media (max-width: 480px) and (min-width: 360px) {
+    .about_us .fa-chevron-left {
+        margin-top: 40%;
+        left: 5.4%;
+    }
+    .about_us .fa-chevron-right {
+        margin-top: 40%;
+        right: 5.4%;
+    }
+}
+.about_us .position {
+    font-size: 0.75em;
+    font-family: "Roboto Slab";
+    color: #555555;
+    line-height: 1.846;
+    margin-top: -15px;
+}
+.works_up {
+    padding-bottom: 7.89%;
+}
+.works_up ul {
+    list-style: none;
+    text-align: center;
+    padding: 2.4% 0 6.1%;
+    margin: 0;
+}
+.works_up li {
+    display: inline;
+    padding: 0 15px 0;
+}
+.works_up li button {
+    background: none;
+    border: none;
+    font-size: 1em;
+    font-family: "Roboto Slab";
+    color: #555555;
+    line-height: 1.5;
+    text-align: center;
+    cursor: pointer;
+}
+.works_up li button:hover {
+    color: #c0301c;
+}
+.works_up li button:focus {
+    outline: none;
+    color: #c0301c;
+}
+.works_up .work_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.works_up .wc_element {
+    margin: 1%;
+    width: 31.3%;
+    height: auto;
+}
+@media (max-width: 960px) {
+    .works_up .wc_element {
+        margin: 1%;
+        width: 48%;
+        height: auto;
+    }
+}
+@media (max-width: 640px) and (min-width: 360px) {
+    .works_up .wc_element {
+        margin: 2%;
+        width: 96%;
+        height: auto;
+    }
+}
+.works_up .wc_element img {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.works_up .figure {
+    position: relative;
+}
+.works_up .figcaption {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #c0301c;
+}
+.works_up .figcaption h5 {
+    font-size: 0.89em;
+    font-family: "Montserrat";
+    color: #ffffff;
+    line-height: 1.333;
+    text-align: center;
+    margin: 27% 0 0;
+}
+.works_up .figcaption .subtitle {
+    font-size: 0.75em;
+    font-family: "Roboto Slab";
+    color: #ffffff;
+    line-height: 2;
+    text-align: center;
+    margin: 4.2% 0 0;
+    padding: 0;
+}
+.works_up .figcaption .link {
+    text-align: center;
+    margin: 4.2% auto;
+}
+.works_up .figcaption a {
+    font-size: 0.87em;
+    font-family: "Roboto Slab";
+    color: #c0301c;
+    text-transform: uppercase;
+    line-height: 1.714;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 5px 10px;
+}
+.works_up .figure:hover .figcaption {
+    display: inline-block;
+    opacity: 0.9;
+}
+.works_down {
+    background-image: url(../images/Layer29.png);
+    height: auto;
+    background-color: #c0301c;
+    text-align: center;
+}
+.works_down h4 {
+    margin: 0 auto 0;
+    padding-top: 6.25%;
+    font-size: 1.8em;
+    font-family: "Roboto Slab";
+    color: #ffffff;
+    line-height: 1.467;
+    text-align: center;
+}
+@media (max-width: 480px) and (min-width: 360px) {
+    .works_down h4 {
+        font-size: 1em;
+        margin: 0 5%;
+    }
+}
+.works_down .button_cover {
+    padding-bottom: 6%;
+}
+.works_down .w-button {
+    margin: 3% auto 0;
+    width: 180px;
+    background: none;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: #ffffff;
+    box-shadow: none;
+    cursor: pointer;
+}
+.works_down .w-button a {
+    font-size: 18px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    line-height: 2.5;
+    text-align: center;
+    margin: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.works_down .w-button:hover {
+    background-color: #ffffff;
+}
+.works_down .w-button:hover a {
+    color: #c0301c;
+}
+@media (max-width: 680px) {
+    .works_down .w-button a {
+        font-size: 1em;
+        margin: 10px 15px;
+    }
+}
+@media (max-width: 480px) and (min-width: 360px) {
+    .works_down .w-button a {
+        font-size: 0.75em;
+        margin: 5px 10px;
+    }
+}
+.blog_content_up,
+.blog_content_down {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6.14%;
+}
+.blog_content_up .content_image,
+.blog_content_down .content_image {
+    width: 40%;
+    height: auto;
+    margin-bottom: 3%;
+}
+.blog_content_up .content_image img,
+.blog_content_down .content_image img {
+    width: 100%;
+    height: auto;
+}
+.blog_content_up .content_text,
+.blog_content_down .content_text {
+    width: 55%;
+    margin-left: 3.5%;
+    margin-bottom: 3%;
+}
+.blog_content_up .content_text .content_text_head,
+.blog_content_down .content_text .content_text_head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+}
+.blog_content_up .content_text .date,
+.blog_content_down .content_text .date {
+    font-size: 1.5em;
+    font-family: "Montserrat";
+    color: #777777;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.833;
+    text-align: center;
+    border: 1px solid black;
+    padding: 18px;
+}
+.blog_content_up .content_text .date span,
+.blog_content_down .content_text .date span {
+    font-size: 0.65em;
+}
+.blog_content_up .content_text .blog_content_title,
+.blog_content_down .content_text .blog_content_title {
+    margin: 0 25px;
+}
+.blog_content_up .content_text .blog_content_title h3,
+.blog_content_down .content_text .blog_content_title h3 {
+    margin: 7px 0;
+}
+.blog_content_up .content_text .blog_subtitle,
+.blog_content_down .content_text .blog_subtitle {
+    font-size: 13px;
+    font-family: "Roboto Slab";
+    color: #777777;
+    line-height: 1.846;
+    text-align: left;
+    font-style: italic;
+}
+.blog_content_up .content_text .blog_subtitle a,
+.blog_content_down .content_text .blog_subtitle a {
+    text-decoration: none;
+    color: #777777;
+}
+.blog_content_up .content_text .blog_text,
+.blog_content_down .content_text .blog_text {
+    display: block;
+    margin-top: 20px;
+    font-size: 0.875em;
+    font-family: "Roboto Slab";
+    color: #555555;
+    line-height: 1.714;
+    text-align: justify;
+    overflow: hidden;
+}
+.blog_content_up .content_text a,
+.blog_content_down .content_text a {
+    font-size: 0.875em;
+    font-family: "Roboto Slab";
+    color: #555555;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.846;
+    text-align: center;
+    text-decoration: none;
+}
+.blog_content_up .content_text:hover a,
+.blog_content_down .content_text:hover a {
+    color: #c0301c;
+}
+.blog_content_up .content_text:hover h3,
+.blog_content_down .content_text:hover h3 {
+    font-weight: 400;
+    color: #c0301c;
+}
+.blog_content_up {
+    border-bottom: 1px solid #777777;
+}
+@media (max-width: 960px) and (min-width: 641px) {
+    .blog_content_up .content_image,
+    .blog_content_down .content_image {
+        width: 35%;
+        height: auto;
+    }
+    .blog_content_up .content_text,
+    .blog_content_down .content_text {
+        width: 60%;
+    }
+}
+@media (max-width: 640px) and (min-width: 360px) {
+    .blog_content_up,
+    .blog_content_down {
+        flex-direction: column;
+    }
+    .blog_content_up .content_image,
+    .blog_content_down .content_image {
+        width: 100%;
+        height: auto;
+    }
+    .blog_content_up img,
+    .blog_content_down img {
+        width: 100%;
+        height: auto;
+        margin: 2% auto;
+    }
+    .blog_content_up .content_text,
+    .blog_content_down .content_text {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+.clients {
+    margin-top: 6.25%;
+    padding: 6.25% 0;
+    background-color: #f8f8f8;
+}
+.clients .clients_content {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 8.77%;
+    align-items: center;
+}
+.clients .clients_content img {
+    margin: auto;
+}
+.clients .clients_content .client_logo {
+    height: 100%;
+    align-items: center;
+    padding: 0;
+}
+.clients .subtitle {
+    width: 67.55%;
+    margin: 5.3% auto 0;
+    padding: 0;
+}
+.clients .signature {
+    margin: 3.5% auto;
+    font-size: 0.9em;
+    font-family: "Roboto Slab";
+    color: #555555;
+    font-weight: bold;
+    line-height: 1.846;
+    text-align: center;
+}
+.contact_content {
+    padding-top: 6.14%;
+    display: flex;
+    justify-content: space-around;
+}
+.contact_content .address {
+    width: 25%;
+}
+.contact_content .address .leftside {
+    text-align: left;
+    width: 10%;
+}
+.contact_content .address .rightside {
+    width: 90%;
+    padding: 0 30px;
+}
+.contact_content .address i {
+    font-size: 22px;
+}
+.contact_content .address .e-mail i {
+    font-size: 1em;
+}
+.contact_content .address h5 {
+    font-size: 0.875em;
+    font-family: "Montserrat";
+    color: #555555;
+    text-transform: uppercase;
+    line-height: 2.143;
+    margin: -25px 0 0;
+}
+.contact_content .address p {
+    margin: 10px 0 15px;
+    font-size: 0.7em;
+    font-family: "Roboto Slab";
+    color: #555555;
+    line-height: 1.667;
+    text-align: left;
+}
+.contact_content form {
+    width: 66%;
+}
+.contact_content form .input1 {
+    width: 46%;
+    height: 45px;
+    margin-bottom: 20px;
+}
+.contact_content form .space {
+    margin-right: 5%;
+}
+.contact_content form .input2 {
+    display: inline-block;
+    width: 98%;
+    height: 100px;
+}
+.contact_content form .input1,
+.contact_content form .input2 {
+    font-size: 0.75em;
+    font-family: "Roboto Slab";
+    color: #555555;
+    text-transform: uppercase;
+    line-height: 1.667;
+    text-align: center;
+    border: 1px solid #555555;
+    outline-color: #c0301c;
+}
+.contact_content form input:hover {
+    border-color: #c0301c;
+}
+.contact_content form button {
+    background: none;
+    border: 1px solid #555555;
+    margin-top: 20px;
+    height: 45px;
+    width: 25%;
+    color: #555555;
+    text-transform: uppercase;
+    line-height: 1.667;
+    text-align: center;
+    font-size: 0.75em;
+    font-family: "Roboto Slab";
+    outline: none;
+}
+.contact_content form button:hover {
+    border-color: #c0301c;
+}
+.contact_content form p {
+    display: inline-block;
+    float: right;
+    font-size: 0.75em;
+    font-family: "Roboto Slab";
+    color: #555555;
+    line-height: 2;
+    margin: 25px 10%;
+}
+.contact_content form p span {
+    color: #c0301c;
+}
+@media (max-width: 1300px) {
+    .contact_content form p {
+        margin: 25px auto;
+        text-align: center;
+        width: 75%;
+    }
+}
+@media (max-width: 854px) {
+    .contact_content form p {
+        font-size: 0.625em;
+    }
+}
+@media (max-width: 768px) {
+    .contact_content {
+        flex-direction: column;
+    }
+    .contact_content .address {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact_content .address .element {
+        width: 33%;
+    }
+    .contact_content form {
+        width: 100%;
+    }
+}
+@media (max-width: 640px) {
+    .contacts .subtitle {
+        font-size: 0.875em;
+    }
+    .contacts .contact_content .address .rightside {
+        padding: 0 20px;
+    }
+    .contacts .contact_content .address .rightside h5 {
+        font-size: 0.815em;
+    }
+    .contacts .contact_content .address .rightside p {
+        font-size: 0.628em;
+    }
+    .contact_content form button {
+        font-size: 0.628em;
+    }
+}
+@media (max-width: 480px) and (min-width: 360px) {
+    .address {
+        flex-direction: column;
+    }
+    .contact_content .address .element {
+        width: 98%;
+    }
+    .contact_content form .input1,
+    .contact_content form .input2 {
+        width: 98%;
+    }
+    .contact_content form button {
+        width: 40%;
+        margin: 20px 30%;
+    }
+    .contact_content form p {
+        width: 98%;
+        float: none;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 360px) {
+    footer {
+        background-color: #c0301c;
+        margin-top: 6.25%;
+        padding: 6.25% 0;
+        text-align: center;
+    }
+    footer .socials i {
+        height: 15px;
+        width: 15px;
+        color: #ffffff;
+        padding: 10px;
+        border: 2px solid white;
+        border-radius: 50px;
+        margin: 0 5px;
+    }
+    footer .socials:after {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 3.125%;
+        background: #ffffff;
+        margin: 0 auto;
+        margin-top: 1.875%;
+    }
+    footer p {
+        font-size: 0.75em;
+        font-weight: 400;
+        font-family: "Roboto Slab";
+        color: #ffffff;
+        text-transform: uppercase;
+        line-height: 1.667;
+    }
+}
