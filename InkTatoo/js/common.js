@@ -10,9 +10,7 @@ $(document).ready(function(){
         $('body,html').animate({scrollTop: top}, 600);
     });
 });
-
 // --------------------------------------------------------------------
-
 // ----------------------------scroll_to_top---------------------------
 $(document).ready(function() {
     /*
@@ -23,13 +21,10 @@ $(document).ready(function() {
      easingType: 'linear'
      };
      */
-
     $().UItoTop({ easingType: 'easeOutQuart' });
 });
 // -----------------------------------------------------------------------
-
-  // ------------------------preloader--------------------------
-
+// ------------------------preloader--------------------------
 // $(window).ready(function(){
 //     setTimeout ("$('#axis').fadeIn('slow');",500);
 //     setTimeout ("$('#axis').fadeOut('slow');",3000);
