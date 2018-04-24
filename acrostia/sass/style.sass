@@ -44,6 +44,18 @@ html
           &:hover
             color: white
 
+  .menu_red
+    background: #df5c64
+
+  .menu_purple
+    background: #91778e
+
+  .menu_green
+    background: #83a457
+
+  .menu_blue
+    background: #75b4aa
+
 header
   display: flex
   justify-content: space-between
@@ -73,6 +85,9 @@ header
 
         &:hover
           background-color: #74c7d5
+
+      .current-item
+        background-color: #74c7d5
 
 
       a
@@ -125,7 +140,11 @@ h2
 
 @media (max-width: 768px)
   h2
-    margin: 10% auto 5%
+    margin: 10vw auto 5vw
+
+@media (max-width: 600px)
+  h2
+    margin: 20vw auto 5vw
 
 @media (max-width: 480px)
   h2
@@ -134,7 +153,7 @@ h2
 @media (max-width: 400px) and (min-width: 360px)
   h2
     font-size: 30px
-    margin: 12% auto 8%
+    margin: 25vw auto 8vw
 
 h3
   font-size: 20px
@@ -315,6 +334,9 @@ h3
       li:hover
           background-color: #df5c64
 
+      .current-item
+        background-color: #df5c64
+
   .services_content
     width: 68.75%
     margin: 0 auto
@@ -419,6 +441,9 @@ h3
     ul
       li:hover
         background-color:  #91778e
+
+      .current-item
+        background-color: #91778e
 
   .about_content
     width: 68.75%
@@ -573,6 +598,9 @@ h3
       li:hover
         background-color: #a1ca6c
 
+      .current-item
+        background-color: #a1ca6c
+
   .work_content
     width: 68.75%
     margin: 0 auto
@@ -708,6 +736,9 @@ h3
   .menu
     ul
       li:hover
+        background-color: #82c8bd
+
+      .current-item
         background-color: #82c8bd
 
   .contact_content

@@ -37,7 +37,19 @@ html {
           display: inline;
           margin: 5px auto; }
           .slicknav_menu .slicknav_nav li a:hover {
-            color: white; } }
+            color: white; }
+
+  .menu_red {
+    background: #df5c64; }
+
+  .menu_purple {
+    background: #91778e; }
+
+  .menu_green {
+    background: #83a457; }
+
+  .menu_blue {
+    background: #75b4aa; } }
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -67,6 +79,8 @@ header {
       border-bottom-right-radius: 5px; }
       header .menu ul li:hover {
         background-color: #74c7d5; }
+    header .menu ul .current-item {
+      background-color: #74c7d5; }
     header .menu ul a {
       text-decoration: none;
       color: white;
@@ -104,13 +118,16 @@ h2 {
 @media (max-width: 768px) {
   h2 {
     margin: 10vw auto 5vw; } }
+@media (max-width: 600px) {
+  h2 {
+    margin: 20vw auto 5vw; } }
 @media (max-width: 480px) {
   h2 {
     font-size: 35px; } }
 @media (max-width: 400px) and (min-width: 360px) {
   h2 {
     font-size: 30px;
-    margin: 12vw auto 8vw; } }
+    margin: 25vw auto 8vw; } }
 h3 {
   font-size: 20px;
   font-weight: 200;
@@ -251,6 +268,8 @@ h3 {
   padding-bottom: 8vw; }
   .services .menu ul li:hover {
     background-color: #df5c64; }
+  .services .menu ul .current-item {
+    background-color: #df5c64; }
   .services .services_content {
     width: 68.75%;
     margin: 0 auto; }
@@ -344,6 +363,8 @@ h3 {
   height: 100%;
   padding-bottom: 8vw; }
   .about .menu ul li:hover {
+    background-color: #91778e; }
+  .about .menu ul .current-item {
     background-color: #91778e; }
   .about .about_content {
     width: 68.75%;
@@ -473,6 +494,8 @@ h3 {
   padding-bottom: 8vw; }
   .work .menu ul li:hover {
     background-color: #a1ca6c; }
+  .work .menu ul .current-item {
+    background-color: #a1ca6c; }
   .work .work_content {
     width: 68.75%;
     margin: 0 auto; }
@@ -588,6 +611,8 @@ h3 {
   height: 100%;
   padding-bottom: 12vw; }
   .contacts .menu ul li:hover {
+    background-color: #82c8bd; }
+  .contacts .menu ul .current-item {
     background-color: #82c8bd; }
   .contacts .contact_content {
     width: 68.75%;

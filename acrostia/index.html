@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>acrostia</title>
-  <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable = 0">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no">
   <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -16,7 +16,7 @@
 </head>
 <body>
 <div class="home" id="home">
-  <header>
+  <header class="main-header">
     <div class="logo">acrostia</div>
     <nav class="menu">
       <ul id="menu">
@@ -47,7 +47,7 @@
   </div>
 </div>
 <section class="services" id="services">
-  <header>
+  <header class="main-header1">
     <div class="logo">acrostia</div>
     <nav class="menu">
       <ul>
@@ -88,7 +88,7 @@
   </div>
 </section>
 <section class="about" id="about">
-  <header>
+  <header class="main-header2">
     <div class="logo">acrostia</div>
     <nav class="menu">
       <ul>
@@ -154,7 +154,7 @@
   </div>
 </section>
 <section class="work" id="work">
-  <header>
+  <header class="main-header3">
     <div class="logo">acrostia</div>
     <nav class="menu">
       <ul>
@@ -232,7 +232,7 @@
   </div>
 </section>
 <section class="contacts" id="contacts">
-  <header>
+  <header class="main-header4">
     <div class="logo">acrostia</div>
     <nav class="menu">
       <ul>
@@ -272,7 +272,7 @@
           <p class="contact_item_title">Ask a question</p>
           <div class="flex-content">
             <input class="input1 input_left" type="text" name="name" placeholder="Name" minlength="2" required/>
-            <input class="input1" type="text" name="email" placeholder="E-Mail" minlength="2" required/>
+            <input class="input1" type="email" name="email" placeholder="E-Mail" minlength="2" required/>
           </div>
           <input class="input2" type="text" name="message" placeholder="Your question" minlength="2" required/>
           <button class="send">send</button>
@@ -290,6 +290,7 @@
   </div>
 </footer>
 <script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/menuspy.min.js"></script>
 <script src="js/mixitup.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/jquery.slicknav.min.js"></script>
