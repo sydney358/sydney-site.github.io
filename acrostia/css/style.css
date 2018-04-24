@@ -120,7 +120,7 @@ h2 {
     margin: 10vw auto 5vw; } }
 @media (max-width: 600px) {
   h2 {
-    margin: 20vw auto 5vw; } }
+    margin: 20% auto 5vw; } }
 @media (max-width: 480px) {
   h2 {
     font-size: 35px; } }
@@ -165,7 +165,7 @@ h3 {
   padding-bottom: 25.6vw; }
   .home .slider {
     width: 60%;
-    margin: 21.56% auto 0; }
+    margin: 21.56vw auto 0; }
     .home .slider .home_content {
       display: -webkit-box;
       display: -ms-flexbox;
