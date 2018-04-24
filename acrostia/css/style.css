@@ -120,7 +120,7 @@ h2 {
     margin: 10vw auto 5vw; } }
 @media (max-width: 600px) {
   h2 {
-    margin: 20% auto 5vw; } }
+    margin: 20vw auto 5vw; } }
 @media (max-width: 480px) {
   h2 {
     font-size: 35px; } }
@@ -238,7 +238,7 @@ h3 {
     bottom: -80%; } }
 @media (max-width: 600px) {
   .home .slider {
-    margin: 50% auto 10vw; } }
+    margin: 50vw auto 10vw; } }
 @media (max-width: 540px) and (min-width: 360px) {
   .home .slider .home_content {
     -webkit-box-orient: vertical;
