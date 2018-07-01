@@ -23,6 +23,54 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: #FFD700; }
 
+.slicknav_menu {
+  display: none; }
+
+@media (max-width: 940px) {
+  .slicknav_menu {
+    display: block;
+    position: absolute;
+    right: 50px;
+    top: 7px;
+    background: none;
+    opacity: 0.9;
+    width: 100%;
+    padding: 10px 5px;
+    z-index: 500; }
+    .slicknav_menu .slicknav_btn {
+      margin: 5px 0 5px;
+      padding: 5px;
+      background-color: inherit; }
+    .slicknav_menu .slicknav_menutxt {
+      font-family: "Cinzel";
+      color: #FFD700; }
+    .slicknav_menu .slicknav_icon-bar {
+      background-color: #FFD700; }
+    .slicknav_menu .slicknav_nav {
+      background-color: #161616;
+      position: absolute;
+      width: 100vw;
+      left: 40px;
+      top: 60px;
+      text-align: center; }
+      .slicknav_menu .slicknav_nav li {
+        display: inline-block; }
+        .slicknav_menu .slicknav_nav li a {
+          color: #FFD700; }
+          .slicknav_menu .slicknav_nav li a:hover {
+            background: #6c6c6c; } }
+@media (max-width: 480px) {
+  .slicknav_menu {
+    right: 30px; }
+    .slicknav_menu .slicknav_menutxt {
+      display: none; }
+    .slicknav_menu .slicknav_nav {
+      left: 20px; }
+      .slicknav_menu .slicknav_nav li {
+        margin: 0; }
+        .slicknav_menu .slicknav_nav li a {
+          font-size: 12px;
+          padding: 5px; } }
 html {
   font-family: "Cinzel", serif;
   font-family: "Noto Serif", serif;
@@ -42,7 +90,8 @@ header {
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    position: relative; }
     header .header_content .logo {
       font-family: "Cinzel";
       font-size: 28px;
@@ -92,6 +141,32 @@ header {
     margin-left: 10%; }
     header .menu ul li {
       margin: 0 10px; } }
+@media (max-width: 1024px) {
+  header .header_content .lang {
+    display: block; }
+    header .header_content .lang img {
+      width: 20px;
+      height: 10px;
+      margin: 8px 5px; } }
+@media (max-width: 960px) {
+  header .header_content {
+    width: 95%; }
+    header .header_content .lang {
+      text-align: right; } }
+@media (max-width: 940px) {
+  header .header_content .menu {
+    display: none; }
+  header .header_content .lang {
+    width: 25px; }
+    header .header_content .lang img {
+      margin: 0 0 5px 7px; } }
+@media (max-width: 680px) {
+  header .header_content {
+    width: 95%;
+    padding: 25px 10px; } }
+@media (max-width: 480px) and (min-width: 360px) {
+  header .header_content .logo {
+    font-size: 20px; } }
 .home {
   width: 100%;
   height: 100vh;
@@ -136,12 +211,16 @@ header {
     background-image: url("../images/home_bg_little.png");
     background-position: center left 10%;
     background-size: cover; }
+    .home .parallax_scroll .home_content {
+      padding-top: 55vh; }
     .home .parallax_scroll h1 {
       font-size: 50px;
       text-align: center; }
       .home .parallax_scroll h1 span {
         font-size: 30px; } }
 @media (max-width: 400px) and (min-width: 360px) {
+  .home .parallax_scroll .home_content {
+    padding-top: 5vh; }
   .home .parallax_scroll h1 {
     font-size: 46px;
     text-align: center; }
