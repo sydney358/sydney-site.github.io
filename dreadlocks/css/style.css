@@ -356,6 +356,26 @@ h2 {
 @media (max-width: 680px) {
   .about_dread .about_content h2:after {
     width: 20%; } }
+@media (max-width: 480px) {
+  .about_dread .about_content h2:after {
+    margin: 20px auto 50px; }
+  .about_dread .about_content h4 {
+    margin: 25px auto 20px 25px;
+    font-size: 22px; }
+  .about_dread .about_content p {
+    font-size: 16px;
+    line-height: 1.2; }
+  .about_dread .about_content ul li {
+    font-size: 16px;
+    line-height: 1.4; }
+    .about_dread .about_content ul li i {
+      font-size: 16px;
+      color: #FFD700;
+      margin-right: 10px;
+      top: -2px; }
+  .about_dread .about_content .price {
+    font-size: 16px;
+    margin: 40px auto 25px; } }
 .gallery {
   width: 100%;
   height: auto;
