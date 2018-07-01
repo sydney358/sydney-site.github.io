@@ -65,7 +65,7 @@ a {
     .slicknav_menu .slicknav_menutxt {
       display: none; }
     .slicknav_menu .slicknav_nav {
-      left: 20px; }
+      left: 15px; }
       .slicknav_menu .slicknav_nav li {
         margin: 0; }
         .slicknav_menu .slicknav_nav li a {
@@ -166,7 +166,9 @@ header {
     padding: 25px 10px; } }
 @media (max-width: 480px) and (min-width: 360px) {
   header .header_content .logo {
-    font-size: 20px; } }
+    font-size: 20px; }
+  header .header_content .lang {
+    margin-top: -5px; } }
 .home {
   width: 100%;
   height: 100vh;
