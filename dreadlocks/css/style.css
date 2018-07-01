@@ -49,8 +49,8 @@ a {
     .slicknav_menu .slicknav_nav {
       background-color: #161616;
       position: absolute;
-      width: 100vw;
-      left: 40px;
+      width: 100%;
+      left: 50px;
       top: 60px;
       text-align: center; }
       .slicknav_menu .slicknav_nav li {
@@ -59,13 +59,13 @@ a {
           color: #FFD700; }
           .slicknav_menu .slicknav_nav li a:hover {
             background: #6c6c6c; } }
-@media (max-width: 480px) {
+@media (max-width: 480px) and (min-width: 360px) {
   .slicknav_menu {
     right: 30px; }
     .slicknav_menu .slicknav_menutxt {
       display: none; }
     .slicknav_menu .slicknav_nav {
-      left: 15px; }
+      left: 30px; }
       .slicknav_menu .slicknav_nav li {
         margin: 0; }
         .slicknav_menu .slicknav_nav li a {
@@ -163,7 +163,7 @@ header {
 @media (max-width: 680px) {
   header .header_content {
     width: 95%;
-    padding: 25px 10px; } }
+    padding: 25px 9px; } }
 @media (max-width: 480px) and (min-width: 360px) {
   header .header_content .logo {
     font-size: 20px; }
@@ -306,7 +306,7 @@ h2 {
       list-style: none; }
       .about_dread .about_content ul li {
         display: inline-block;
-        font-size: 26px;
+        font-size: 22px;
         line-height: 2;
         text-align: justify;
         font-family: "Lato";
@@ -318,8 +318,8 @@ h2 {
           margin-right: 10px;
           top: -2px; }
     .about_dread .about_content .price {
-      font-size: 26px;
-      margin: 70px auto 50px;
+      font-size: 24px;
+      margin: 60px auto 40px;
       text-align: center;
       color: #FFD700; }
 
