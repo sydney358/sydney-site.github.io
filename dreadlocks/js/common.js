@@ -30,3 +30,19 @@ $('body').flipLightBox()
 $(function(){
     $('#menu').slicknav();
 });
+// ---------------------------------readmore---------------------------------------
+$(function(){
+    $('.readmore').click(function(){
+        $('.gallery_item').toggleClass('display');
+        // return false;
+    });
+});
+$(function(){
+    $('.readmore').click(function(){
+        $('.readmore').css("display", "none")
+        // return false;
+    });
+});
+
+
+

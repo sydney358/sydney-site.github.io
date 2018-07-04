@@ -2,7 +2,6 @@ body, div, a, p, header, section, article, h1, h2, h3, h4, ul, li, i, nav, img, 
   border: none
   padding: 0
   margin: 0
-
 a
   text-decoration: none
   &:visited
@@ -10,15 +9,12 @@ a
 
 ::-webkit-scrollbar
   width: 15px
-
 ::-webkit-scrollbar-track
   background: #6c6c6c
   box-shadow: inset 0 0 5px grey
-
 ::-webkit-scrollbar-thumb
   background: #555
   border-radius: 20px
-
 ::-webkit-scrollbar-thumb:hover
     background: #FFD700
 
@@ -48,8 +44,8 @@ a
     .slicknav_nav
       background-color: #161616
       position: absolute
-      width: 100vw
-      left: 40px
+      width: 100%
+      left: 50px
       top: 60px
       text-align: center
       li
@@ -58,14 +54,16 @@ a
           color: #FFD700
           &:hover
             background: #6c6c6c
+          &:active, :focus
+            outline: none
 
-@media (max-width: 480px)
+@media (max-width: 480px) and (min-width: 360px)
   .slicknav_menu
     right: 30px
     .slicknav_menutxt
       display: none
     .slicknav_nav
-      left: 20px
+      left: 30px
       li
         margin: 0
         a
@@ -118,6 +116,9 @@ header
       width: 25px
       height: 15px
       margin: 7px 7px
+      opacity: 0.5
+      &:hover
+        opacity: 1
 
 @media (max-width: 1580px)
   header .header_content
@@ -163,6 +164,7 @@ header
 @media (max-width: 960px)
   header .header_content
     width: 95%
+    padding: 25px 5px
     .lang
       text-align: right
 
@@ -178,17 +180,14 @@ header
 @media (max-width: 680px)
   header .header_content
     width: 95%
-    padding: 25px 10px
+    padding: 25px 9px
 
 @media (max-width: 480px) and (min-width: 360px)
   header .header_content
     .logo
       font-size: 20px
-
-
-
-
-
+    .lang
+      margin-top: -5px
 
 .home
   width: 100%
@@ -223,8 +222,6 @@ header
       font-size: 80px
       span
         font-size: 60px
-
-
 
 @media (max-width: 1024px)
 .home .parallax_scroll h1
@@ -282,7 +279,7 @@ h2
 .line
   background-color: #FFD700
   width: 100%
-  height: 1vh
+  height: 8px
 
 .arrow
   width: 0
@@ -291,7 +288,6 @@ h2
   border: 15px solid transparent
   border-top-color: #FFD700
   border-bottom: 0
-
 //------------------------about---------------------
 .about_dread
   width: 100%
@@ -344,7 +340,7 @@ h2
       list-style: none
       li
         display: inline-block
-        font-size: 26px
+        font-size: 22px
         line-height: 2
         text-align: justify
         font-family: 'Lato'
@@ -356,8 +352,8 @@ h2
           margin-right: 10px
           top: -2px
     .price
-      font-size: 26px
-      margin: 70px auto 50px
+      font-size: 24px
+      margin: 60px auto 40px
       text-align: center
       color: #FFD700
 
@@ -381,7 +377,6 @@ h2
           color: #FFD700
           margin-right: 10px
           top: -2px
-
       .price
         font-size: 20px
         margin: 50px auto 30px
@@ -400,6 +395,29 @@ h2
 @media (max-width: 680px)
   .about_dread .about_content h2:after
     width: 20%
+
+@media (max-width: 480px)
+  .about_dread
+    .about_content
+      h2:after
+        margin: 20px auto 50px
+      h4
+        margin: 25px auto 20px 25px
+        font-size: 22px
+      p
+        font-size: 16px
+        line-height: 1.2
+      ul li
+        font-size: 16px
+        line-height: 1.4
+        i
+          font-size: 16px
+          color: #FFD700
+          margin-right: 10px
+          top: -2px
+      .price
+        font-size: 16px
+        margin: 40px auto 25px
 //----------------------------gallery--------------------
 .gallery
   width: 100%
@@ -429,6 +447,8 @@ h2
       display: flex
       flex-wrap: wrap
       justify-content: space-around
+      .display:nth-child(n+7)
+        display: none
       .gallery_item
         width: 30%
         height: auto
@@ -445,7 +465,7 @@ h2
         &:after
           background: linear-gradient(to bottom, #161616 10%, #FFD700 100%)
           width: 7px
-          height: 98%
+          height: 97%
           content: ''
           display: block
           position: absolute
@@ -460,6 +480,33 @@ h2
         a
           width: 100%
           height: 100%
+
+    .for_button
+      width: 100%
+      height: auto
+      text-align: center
+      .readmore
+        margin: 60px auto 0
+        background: none
+        font-size: 25px
+        line-height: 1.2
+        font-family: "Cinzel"
+        color: #161616
+        border: none
+        cursor: pointer
+        padding: 10px 20px
+        border-radius: 10px
+        background: #FFD700
+        transition:  2s
+        &:hover
+          color: white
+          transform: scale(1.1)
+          transition: 1s
+        &:active, :focus
+          outline: none
+
+
+
 
 @media (max-width: 1295px)
   .gallery .gallery_content .gallery_main .gallery_item:before,
@@ -491,12 +538,14 @@ h2
     height: 94%
 
 @media (max-width: 480px) and (min-width: 360px)
+
+  .gallery .gallery_content .gallery_main .display:nth-child(n+5)
+    display: none
   .gallery .gallery_content .gallery_main .gallery_item
     width: 90%
   .gallery .gallery_content .gallery_main .gallery_item:before,
   .gallery .gallery_content .gallery_main .gallery_item:after
     height: 97%
-
 //-----------------------------contacts-------------------
 .contacts
   width: 100%
@@ -564,8 +613,6 @@ h2
           height: 25px
           width: 25px
           padding: 12px
-
-
 //----------------------------footer------------------
 footer
   width: 100%

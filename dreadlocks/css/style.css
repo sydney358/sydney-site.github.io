@@ -58,7 +58,9 @@ a {
         .slicknav_menu .slicknav_nav li a {
           color: #FFD700; }
           .slicknav_menu .slicknav_nav li a:hover {
-            background: #6c6c6c; } }
+            background: #6c6c6c; }
+          .slicknav_menu .slicknav_nav li a:active, .slicknav_menu .slicknav_nav li a :focus {
+            outline: none; } }
 @media (max-width: 480px) and (min-width: 360px) {
   .slicknav_menu {
     right: 30px; }
@@ -153,7 +155,8 @@ header {
       margin: 8px 5px; } }
 @media (max-width: 960px) {
   header .header_content {
-    width: 95%; }
+    width: 95%;
+    padding: 25px 5px; }
     header .header_content .lang {
       text-align: right; } }
 @media (max-width: 940px) {
@@ -252,7 +255,7 @@ h2 {
 .line {
   background-color: #FFD700;
   width: 100%;
-  height: 1vh; }
+  height: 8px; }
 
 .arrow {
   width: 0;
@@ -409,6 +412,8 @@ h2 {
           flex-wrap: wrap;
       -ms-flex-pack: distribute;
           justify-content: space-around; }
+      .gallery .gallery_content .gallery_main .display:nth-child(n+7) {
+        display: none; }
       .gallery .gallery_content .gallery_main .gallery_item {
         width: 30%;
         height: auto;
@@ -427,7 +432,7 @@ h2 {
           background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #161616), to(#FFD700));
           background: linear-gradient(to bottom, #161616 10%, #FFD700 100%);
           width: 7px;
-          height: 98%;
+          height: 97%;
           content: "";
           display: block;
           position: absolute;
@@ -442,6 +447,32 @@ h2 {
         .gallery .gallery_content .gallery_main .gallery_item a {
           width: 100%;
           height: 100%; }
+    .gallery .gallery_content .for_button {
+      width: 100%;
+      height: auto;
+      text-align: center; }
+      .gallery .gallery_content .for_button .readmore {
+        margin: 60px auto 0;
+        background: none;
+        font-size: 25px;
+        line-height: 1.2;
+        font-family: "Cinzel";
+        color: #161616;
+        border: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background: #FFD700;
+        -webkit-transition: 2s;
+        transition: 2s; }
+        .gallery .gallery_content .for_button .readmore:hover {
+          color: white;
+          -webkit-transform: scale(1.1);
+                  transform: scale(1.1);
+          -webkit-transition: 1s;
+          transition: 1s; }
+        .gallery .gallery_content .for_button .readmore:active, .gallery .gallery_content .for_button .readmore :focus {
+          outline: none; }
 
 @media (max-width: 1295px) {
   .gallery .gallery_content .gallery_main .gallery_item:before,
@@ -469,6 +500,9 @@ h2 {
   .gallery .gallery_content .gallery_main .gallery_item:after {
     height: 94%; } }
 @media (max-width: 480px) and (min-width: 360px) {
+  .gallery .gallery_content .gallery_main .display:nth-child(n+5) {
+    display: none; }
+
   .gallery .gallery_content .gallery_main .gallery_item {
     width: 90%; }
 
