@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>genexic</title>
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--modal-window-->
+<div id="overlay" class="overlay">
+<div class="pop-up" id="modal_window">
+  <div class="pop-up_head">
+    <div class="logo">
+      <img src="images/Logo.svg" alt="logo">
+    </div>
+    <div class="modal_close">
+      <span id="modal_close"><i class="fa fa-times" aria-hidden="true"></i></span>
+    </div>
+
+  </div>
+  <div class="pop-up_content">
+    <p class="pop-up_text">Хотите поговорить с нами о новом проекте или хотите узнать больше о нашем агентстве?</p>
+    <form class="contact_us" method="post" autocomplete="off">
+      <input type="text" name="name" placeholder="Ваше Имя">
+      <input type="email" name="email" placeholder="Ваш e-mail">
+      <input type="tel" name="number" placeholder="Ваш телефон">
+      <div class="pop-up_btn_center">
+        <button type="submit" name="send">связаться</button>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+<!--home-->
+<section class="home" id="home">
+  <header>
+    <div class="logo"><img src="images/Logo.svg" alt="Logo"></div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#home">главная</a></li>
+        <li><a href="#about">про нас</a></li>
+        <li><a href="#price">услуги</a></li>
+        <li><a href="#gallery">портфолио</a></li>
+        <li><a href="#contacts">контакты</a></li>
+      </ul>
+    </nav>
+    <div class="tel">
+      <p>+38 096 999 88 77</p>
+      <p>+38 096 999 88 77</p>
+    </div>
+  </header>
+  <div class="home_content">
+    <div class="home_left">
+      <div class="home_img">
+        <img src="images/Layer12.png" alt="home_img">
+      </div>
+    </div>
+    <div class="home_right">
+      <div class="home_right_content">
+        <h1 class="wow slideInLeft"><span>Интернет магазины</span><br>
+        под ключ за 24 часа
+      </h1>
+      <div class="subtitle wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+        Быстрый старт малому бизнесу
+      </div>
+        <div class="home_button wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
+          <button class="hm_button" type="submit" id="go">Заказать</button>
+        </div>
+      </div>
+      <div class="social_fix">
+        <ul>
+          <li><a href="https://facebook.com">facebook</a></li>
+          <li><a href="https://twitter.com">twitter</a></li>
+          <li><a href="https://www.linkedin.com/">linkedin</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="advantages" id="about">
+  <div class="advantages_content">
+    <h2 class="wow slideInLeft" data-wow-duration="1.5s">преимущества</h2>
+    <div class="advantages_main">
+      <div class="sircle3">
+        <div class="advant_items left_side">
+        <div class="advant_item advant_item1">
+          <p class="advant_text">Старт бизнеса<br>
+            в интеренте за 72 часа</p>
+          <div class="advant_icon">
+            <img src="images/item1.png" alt="advant_icon">
+          </div>
+        </div>
+        <div class="advant_item advant_item2">
+          <p class="advant_text">Поддержка на<br>
+            первых шагах</p>
+          <div class="advant_icon">
+            <img src="images/item2.png" alt="advant_icon">
+          </div>
+        </div>
+        <div class="advant_item advant_item3">
+          <p class="advant_text">Минимальные<br>
+            вложения</p>
+          <div class="advant_icon">
+            <img src="images/item3.png" alt="advant_icon">
+          </div>
+        </div>
+          </div>
+        <div class="advant_items right_side">
+        <div class="advant_item advant_item4">
+          <div class="advant_icon">
+            <img src="images/item4.png" alt="advant_icon">
+          </div>
+          <p class="advant_text">По официальному<br>
+            договору</p>
+        </div>
+        <div class="advant_item advant_item5">
+          <div class="advant_icon">
+            <img src="images/item5.png" alt="advant_icon">
+          </div>
+          <p class="advant_text">Возврат денег</p>
+        </div>
+        <div class="advant_item advant_item6">
+          <div class="advant_icon">
+            <img src="images/item6.png" alt="advant_icon">
+          </div>
+          <p class="advant_text">Без скрытых<br>
+            платежей</p>
+        </div>
+        </div>
+        <div class="sircle2">
+          <div class="sircle1">
+            <div class="advant_image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="process">
+  <div class="process_content">
+    <h2 class="wow slideInRight" data-wow-duration="1.5s">как мы<br> работаем</h2>
+    <div class="process_main">
+      <div class="left_side">
+        <div class="process_item item3">
+          <p>Устанавливаем согласно
+            запросу магазин</p>
+        </div>
+        <div class="process_item item1">
+          <p>Выбираете, Помогаем консультируем</p>
+        </div>
+      </div>
+      <div class="center rocket">
+        <img src="images/Layer17.png" alt="rocket">
+      </div>
+      <div class="right_side">
+        <div class="process_item item4">
+          <p>Поддерживаем<br>24/7</p>
+        </div>
+        <div class="process_item item2">
+          <p>Подбираем вам<br>оптимальный вариант</p>
+          <div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="process_btn"><button class="pr_button" type="submit" id="go1">Заказать</button></div>
+  </div>
+</section>
+<section class="questions">
+  <div class="questions_content">
+    <h2 class="wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s" >Ваши боли<br> и страхи</h2>
+    <div class="questions_main">
+    <button class="accordion">Что мне делать дальше?</button>
+    <div class="panel">
+<p class="questions_text">Поможем Вам в развитии при необходимости.<br>
+  Чем качественнее мы сделаем свою работу тем больше вы сможете зарабатывать и больше инвестировать в развитие бизнеса и
+  расширение </p>
+      </div>
+    <button class="accordion">Какие гарантии?</button>
+    <div class="panel">
+<p class="questions_text">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Donec lectus nunc, convallis eu euismod id, convallis vitae
+  nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Donec lectus nunc, convallis eu euismod id, convallis vitae
+  nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+</p>
+      </div>
+    <button class="accordion">Зачем мне интернет магазин?</button>
+    <div class="panel">
+<p class="questions_text">Vestibulum dignissim ante eu posuere commodo.<br> Nam faucibus sapien vel massa eleifend, et
+  aliquam nibh posuere. Cras sit amet orci efficitur, consectetur ligula in, ultrices metus. </p>
+    </div>
+      <button class="accordion">Можно ли ещe дешевле?</button>
+    <div class="panel">
+<p class="questions_text">In sit amet suscipit nulla. Maecenas eget varius nisl. Sed non felis mattis, aliquam urna
+  quis, egestas tortor. Suspendisse pellentesque arcu vel leo iaculis venenatis. In nec augue sapien. Morbi at diam
+  risus. Duis quis metus nulla. Integer aliquet, nisl at lacinia convallis, magna turpis fringilla mauris, sed ultrices
+  lacus nisl in libero. Cras viverra, nisl quis cursus sollicitudin</p>
+      </div>
+    </div>
+</div>
+</section>
+<section class="prices" id="price">
+  <h2 class="wow slideInRight" data-wow-duration="1.5s">пакеты услуг</h2>
+  <div class="prices_content multiple-items">
+    <div class="price_item">
+      <h4 class="item_title"><span>Дешевле</span><br>только самому</h4>
+        <div class="price">499$</div>
+        <div class="prices_subtitle">В пакет входят:</div>
+        <ul class="item_content">
+          <li>подбор домена</li>
+          <li>выбор хостинга</li>
+          <li>установка и настойка магазина</li>
+          <li>первичная SEO оптимизация</li>
+          <li>настройка аналитики</li>
+        </ul>
+      <div class="btn_center">
+      <button type="submit" id="go2">заказать</button>
+      </div>
+    </div>
+    <div class="price_item">
+      <h4 class="item_title"><span>Пора</span><br>зарабатывать</h4>
+      <div class="price">899$</div>
+      <div class="prices_subtitle">В пакет входят:</div>
+      <ul class="item_content">
+        <li>подбор домена</li>
+        <li>выбор хостинга</li>
+        <li>установка и настойка магазина</li>
+        <li>первичная SEO оптимизация</li>
+        <li>настройка аналитики</li>
+      </ul>
+      <div class="btn_center">
+      <button type="submit" id="go3">заказать</button>
+        </div>
+    </div>
+    <div class="price_item">
+      <h4 class="item_title"><span>Сколько</span><br>нужно?</h4>
+      <div class="price">1600$</div>
+      <div class="prices_subtitle">В пакет входят:</div>
+      <ul class="item_content">
+        <li>подбор домена</li>
+        <li>выбор хостинга</li>
+        <li>установка и настойка магазина</li>
+        <li>первичная SEO оптимизация</li>
+        <li>настройка аналитики</li>
+      </ul>
+      <div class="btn_center">
+      <button type="submit" id="go4">заказать</button>
+        </div>
+    </div>
+    <div class="price_item walk">
+      <h4 class="item_title"><span>Гулять</span><br>так Гулять</h4>
+      <div class="price">Договорная</div>
+      <div class="prices_subtitle">В пакет входят:</div>
+      <ul class="item_content">
+        <li>Индивидуальный <br>дизайн</li>
+        <li>Маркетинговая стратегия под ключ</li>
+        <li>CRM</li>
+      </ul>
+      <div class="btn_center">
+      <button type="submit" id="go5">заказать</button>
+        </div>
+    </div>
+    <div class="price_item expensive">
+      <h4 class="item_title">Хочу то не понятно
+        что, желательно
+        за бесплатно и очень
+        срочно, а лучше
+        на вчера</h4>
+      <div class="price">очень дорого</div>
+      <div class="item_content">
+      </div>
+      <div class="btn_center">
+            <button type="submit" id="go6">заказать</button>
+        </div>
+    </div>
+  </div>
+</section>
+<section class="portfolio" id="gallery">
+  <div class="portfolio_content">
+    <h2 class="portfolio_title wow fadeInUp">наше портфолио</h2>
+    <div class="portfolio_subtitle">Проекты Genexic, которые уже приносят
+    высокий доход своим владельцам.
+    </div>
+    <div class="portfolio_main">
+      <div class="portfolio_item figure">
+        <img src="images/lp2_02.jpg" alt="portfolio_item">
+        <div class="figurecaption">
+          <a href="#"><i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="portfolio_item figure">
+        <img src="images/lp2_03.jpg" alt="portfolio_item">
+        <div class="figurecaption">
+          <a href="#"><i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="portfolio_item figure">
+        <img src="images/lp2_04.jpg" alt="portfolio_item">
+        <div class="figurecaption">
+          <a href="#"><i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="portfolio_item figure">
+        <img src="images/lp2_05.jpg" alt="portfolio_item">
+        <div class="figurecaption">
+          <a href="#"><i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="portfolio_item figure">
+        <img src="images/lp2_06.png" alt="portfolio_item">
+        <div class="figurecaption">
+          <a href="#"><i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="portfolio_item figure">
+        <img src="images/lp2_07.jpg" alt="portfolio_item">
+        <div class="figurecaption">
+          <a href="#"><i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="see_more">Посмотреть еще<a href="#"><i class="fas fa-arrow-right"></i></a></div>
+  </div>
+</section>
+<!--<section class="text">-->
+  <!--<h3>сео текст</h3>-->
+  <!--<div class="seo_text">-->
+    <!--<p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее-->
+      <!--осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних-->
+      <!--условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется-->
+      <!--абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более-->
+      <!--привлекательным и живым для визуально-слухового восприятия.</p>-->
+    <!--<p>По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей-->
+      <!--недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой-->
+      <!--макет непонятным смыслом и придаст неповторимый колорит советс-->
+    <!--</p>-->
+  <!--</div>-->
+<!--</section>-->
+<section class="get_in" id="contacts">
+  <div class="get_in_content">
+    <div class="get_left_side">
+      <h2 class="wow slideInLeft">переходим<br>
+        к действиям</h2>
+    </div>
+    <div class="get_right_side wow slideInRight" data-wow-duration="1s" data-wow-delay="1s">
+      <div class="r_side_content">
+        <p>Позвоните нам&nbsp;&nbsp;<span>+38 096 999 88 77</span></p>
+        <p><span><a href="#" id="go7">Отправить</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Online заявку</p>
+        <p>Скачайте&nbsp;&nbsp;<span><a href="#">Презентацию</a></span>&nbsp;&nbsp;или&nbsp;&nbsp;<span><a
+            href="#">Бриф</a></span></p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <ul class="footer_social">
+    <li><a href="https://telegram.org" target="_blank"><i class="fab fa-telegram"></i></a></li>
+    <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+    <li><a href="https://googleplus.com" target="_blank"><i class="fab fa-google-plus"></i></a></li>
+    <li><a href="https://youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
+    <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="https://viber.com" target="_blank"><i class="fab fa-viber"></i></a></li>
+  </ul>
+</footer>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
