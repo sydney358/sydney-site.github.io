@@ -1027,34 +1027,72 @@ html {
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
+@media (max-width: 1454px) {
+  .process .process_content .process_main .right_side .item2 p {
+    top: 25px; } }
 .process .process_content:before {
   width: 260px;
   height: 270px; }
 
 @media (max-width: 1280px) {
-  .process .process_content .process_main .left_side .process_item p,
-  .process .process_content .process_main .right_side .process_item p {
-    font-size: 16px; }
+  .process .process_content {
+    width: 75%; }
 
-  .process .process_content .process_main .right_side {
-    width: 25vw; } }
-@media (max-width: 900px) {
+  .process .process_content .process_main .right_side,
+  .process .process_content .process_main .left_side {
+    width: 30vw; }
+
+  .process .process_content .process_main .center {
+    width: 18vw; }
+
+  .process .process_content .process_main .right_side .item2 p {
+    top: 55px; } }
+@media (max-width: 1060px) {
+  .process .process_content .process_main .right_side .item2 p {
+    top: 25px; } }
+@media (max-width: 960px) {
+  .process .process_content {
+    width: 80%; }
+
   .process .process_content:before,
   .process .process_content:after {
     display: none; }
 
   .process .process_content .process_main {
-    padding-top: 160px; } }
+    padding-top: 160px; }
+
+  .process .process_content .process_main .left_side .process_item p,
+  .process .process_content .process_main .right_side .process_item p {
+    font-size: 14px; }
+
+  .process .process_content .process_main .right_side,
+  .process .process_content .process_main .left_side {
+    width: 30vw; }
+
+  .process .process_content .process_main .right_side .item2:after,
+  .process .process_content .process_main .right_side .item4:after {
+    top: 100px; }
+
+  .process .process_content .process_main .left_side .item1:before,
+  .process .process_content .process_main .left_side .item3:before {
+    font-size: 140px; }
+
+  .process .process_content .process_main .right_side .item4:before,
+  .process .process_content .process_main .right_side .item2:before {
+    font-size: 140px; }
+
+  .process .process_content .process_main .right_side .item2 p {
+    top: 55px; } }
 @media (max-width: 840px) {
+  .process .process_content h2 {
+    font-size: 35px; }
+
   .process .process_content h2:after {
-    font-size: 120px; }
+    font-size: 110px; }
 
   .process .process_content .process_main {
     padding-top: 180px; } }
 @media (max-width: 768px) {
-  .process .process_content h2:after {
-    font-size: 110px; }
-
   .process .process_content .process_main {
     padding-top: 200px; } }
 @media (max-width: 680px) {
