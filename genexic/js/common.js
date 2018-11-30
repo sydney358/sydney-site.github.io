@@ -1,6 +1,16 @@
 /**
  * Created by sydney on 28.06.2018.
  */
+//-------------------------------menu-------------------------------
+$('#navigation').slimmenu(
+    {
+        resizeWidth: '640',
+        collapserTitle: '',
+        animSpeed: 'medium',
+        easingEffect: null,
+        indentChildren: false,
+        childrenIndenter: '&nbsp;'
+    });
 // ------------------------------------pop-up-----------------------
 $(document).ready(function() {
     $('#go, #go1, #go2, #go3, #go4, #go5, #go6, #go7').click( function(event){

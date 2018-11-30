@@ -457,6 +457,19 @@ html
     right: -15%
 
 @media (max-width: 1024px)
+  .home header .logo
+    padding: 35px 25px
+
+  .home header ul li
+    padding: 35px 8px
+    a
+      font-size: 16px
+
+  .home header .tel
+    padding: 35px 25px
+    p
+      font-size: 16px
+
   .home .home_content .home_right .social_fix
     right: -16%
 
@@ -468,7 +481,20 @@ html
   .home .home_content .home_right .social_fix
     right: -20%
 
-@media (max-width: 760px)
+@media (max-width: 768px)
+  .home header .logo
+    padding: 25px 20px
+
+  .home header ul li
+    padding: 25px 5px
+    a
+      font-size: 14px
+
+  .home header .tel
+    padding: 25px 20px
+    p
+      font-size: 14px
+
   .home .home_content .home_right .social_fix
     right: -22%
 
@@ -477,18 +503,46 @@ html
     right: -24%
 
 @media (max-width: 640px)
+  .home header .logo
+    width: 15%
+
+  .home header ul
+    position: absolute
+    top: 70px
+    width: 100vw
+    background-color: #2f1b56
+    right: 0
+    display: flex
+    justify-content: space-between
+    padding-left: 10px
+    li
+      padding: 5px
+      display: inline-block
+
   .home .home_content .home_right .social_fix
     right: -25%
 
 @media (max-width: 600px)
   .home .home_content .home_right .social_fix
-    right: -29%
+    right: -28%
 
 @media (max-width: 540px)
   .home .home_content .home_right .social_fix
     right: -31%
 
 @media (max-width: 480px)
+  .home header .logo
+    width: 20%
+
+  .home header ul li
+    padding: 3px
+    &:first-child
+      padding: 3px 3px 3px 15px
+
+
+  .home header ul li a
+    font-size: 12px
+
   .home .home_content .home_right .social_fix
     right: -35%
 
@@ -757,6 +811,9 @@ html
   .advantages .advantages_content .advantages_main .sircle3
     margin: 50px auto
 
+  .advantages .advantages_content
+    padding-bottom: 50px
+
 @media (max-width: 480px) and (min-width: 360px)
   .advantages .advantages_content h2
     font-size: 25px
@@ -1007,6 +1064,9 @@ html
   height: 270px
 
 @media (max-width: 1280px)
+  .process
+    padding: 100px 0
+
   .process .process_content
     width: 75%
 
@@ -1060,22 +1120,27 @@ html
 
 
 @media (max-width: 840px)
+  .process
+    padding: 75px 0
+
+  .process .process_content .process_btn
+    margin: 75px auto 0
+
   .process .process_content h2
     font-size: 35px
   .process .process_content h2:after
     font-size: 110px
+    left: -2.5vw
   .process .process_content .process_main
     padding-top: 180px
 
-  //.process .process_content .process_main .center
-  //  width: 25vw
-  //
-  //.process .process_content .process_main .right_side,
-  //.process .process_content .process_main .left_side
-  //  width: 35vw
+  .process .process_content .process_main .left_side .process_item p,
+  .process .process_content .process_main .right_side .process_item p
+    font-size: 12px
 
-
-
+@media (max-width: 726px)
+  .process .process_content .process_main .right_side .item2 p
+    top: 35px
 
 @media (max-width: 768px)
   .process .process_content .process_main
@@ -1086,27 +1151,93 @@ html
     font-size: 35px
   .process .process_content h2:after
     font-size: 100px
-    left: -10vw
-
 
 @media (max-width: 600px)
+  .process .process_content .process_main
+    padding-top: 150px
   .process .process_content h2:after
     font-size: 90px
+
+  .process .process_content
+    width: 85%
+
+  .process .process_content .process_main .right_side,
+  .process .process_content .process_main .left_side
+    width: 34vw
+
+  .process .process_content .process_main .center
+    width: 20vw
+
+  .process .process_content .process_main .left_side .item1:before,
+  .process .process_content .process_main .left_side .item3:before
+    font-size: 120px
+
+  .process .process_content .process_main .right_side .item4:before,
+  .process .process_content .process_main .right_side .item2:before
+    font-size: 120px
 
 @media (max-width: 540px)
   .process .process_content h2:after
     font-size: 80px
+
+  .process .process_content .process_main .right_side
+    top: 30px
+
+  .process .process_content .process_main .left_side .process_item p,
+  .process .process_content .process_main .right_side .process_item p
+    font-size: 10px
+
+    .process .process_content .process_main .left_side .item1:before,
+  .process .process_content .process_main .left_side .item3:before
+    font-size: 90px
+
+  .process .process_content .process_main .right_side .item4:before,
+  .process .process_content .process_main .right_side .item2:before
+    font-size: 90px
+
+  .process .process_content .process_main .right_side .process_item
+    margin-left: 30px
+
+  .process .process_content .process_main .left_side .process_item
+    margin-right: 30px
+
+  .process .process_content .process_main .right_side .process_item
+    height: 45%
+
+  .process .process_content .process_main .right_side .process_item
+    top: -20px
+
+  .process .process_content .process_main .right_side .item2 p
+    top: 50px
+  .process .process_content .process_main .right_side .item4 p
+    top: 65px
+
+
 
 @media (max-width: 480px)
   .process .process_content h2
     font-size: 25px
   .process .process_content h2:after
     font-size: 70px
-    left: -12vw
 
-@media (max-width: 400px) and (min-width: 360px)
+@media (max-width: 420px) and (min-width: 360px)
   .process .process_content h2:after
     font-size: 60px
+
+  .process .process_content .process_main .left_side .item1:before,
+  .process .process_content .process_main .left_side .item3:before
+    font-size: 70px
+
+  .process .process_content .process_main .right_side .item4:before,
+  .process .process_content .process_main .right_side .item2:before
+    font-size: 70px
+
+  .process .process_content .process_main .left_side .process_item
+    height: 60%
+
+  .process .process_content .process_main .right_side .process_item
+    top: -60px
+
 
 
 //----------------------------------questions---------------------------
