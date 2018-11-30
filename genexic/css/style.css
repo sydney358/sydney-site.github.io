@@ -493,7 +493,7 @@ html {
     right: -25%; } }
 @media (max-width: 600px) {
   .home .home_content .home_right .social_fix {
-    right: -30%; } }
+    right: -29%; } }
 @media (max-width: 540px) {
   .home .home_content .home_right .social_fix {
     right: -31%; } }
@@ -505,7 +505,7 @@ html {
     right: -36%; } }
 @media (max-width: 440px) {
   .home .home_content .home_right .social_fix {
-    right: -40%; } }
+    right: -38%; } }
 @media (max-width: 400px) {
   .home .home_content .home_right .social_fix {
     right: -42%; } }
@@ -685,10 +685,13 @@ html {
 
   .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item2 {
     left: -22vw; } }
-@media (max-width: 1300px) {
+@media (max-width: 1280px) {
+  .advantages .advantages_content h2:after {
+    font-size: 115px; }
+
   .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item p,
   .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item p {
-    font-size: 16px; }
+    font-size: 14px; }
   .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item .advant_icon,
   .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item .advant_icon {
     width: 40px;
@@ -699,6 +702,115 @@ html {
 
   .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item2 {
     left: -21.5vw; } }
+@media (max-width: 1024px) {
+  .advantages .advantages_content h2:after {
+    font-size: 100px;
+    right: -14vw; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item p,
+  .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item p {
+    font-size: 12px; }
+  .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item .advant_icon,
+  .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item .advant_icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px; } }
+@media (max-width: 768px) {
+  .advantages .advantages_content h2:after {
+    font-size: 75px;
+    right: -12vw; }
+
+  .advantages .advantages_content .advantages_main .sircle3 {
+    width: 50vw;
+    height: 50vw;
+    margin: 75px auto; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .sircle2 {
+    width: 43vw;
+    height: 43vw; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .sircle2 .sircle1 {
+    width: 41vw;
+    height: 41vw; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .sircle2 .sircle1 .advant_image {
+    width: 39vw;
+    height: 39vw; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item,
+  .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item {
+    width: 30vw; }
+    .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item p,
+    .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item p {
+      font-size: 10px; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item1,
+  .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item3 {
+    left: -13vw; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item2 {
+    left: -23vw; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item4,
+  .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item6 {
+    right: -13vw; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item5 {
+    right: -23vw; } }
+@media (max-width: 600px) {
+  .advantages .advantages_content h2 {
+    font-size: 35px; }
+
+  .advantages .advantages_content h2:after {
+    font-size: 65px; } }
+@media (max-width: 520px) {
+  .advantages .advantages_content h2 {
+    font-size: 30px; }
+
+  .advantages .advantages_content h2:after {
+    font-size: 55px; }
+
+  .advantages .advantages_content .advantages_main .sircle3 {
+    margin: 50px auto; } }
+@media (max-width: 480px) and (min-width: 360px) {
+  .advantages .advantages_content h2 {
+    font-size: 25px; }
+
+  .advantages .advantages_content h2:after {
+    font-size: 45px; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .sircle2 .sircle1 .advant_image {
+    opacity: 0.4; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item1,
+  .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item3 {
+    left: -10vw; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item2 {
+    left: -20vw; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item4,
+  .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item6 {
+    right: -10vw; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item5 {
+    right: -20vw; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item6,
+  .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item3 {
+    bottom: 6vw; }
+
+  .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item,
+  .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item {
+    width: 35vw; }
+    .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item p,
+    .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item p {
+      font-size: 8px; }
+    .advantages .advantages_content .advantages_main .sircle3 .right_side .advant_item .advant_icon,
+    .advantages .advantages_content .advantages_main .sircle3 .left_side .advant_item .advant_icon {
+      width: 20px;
+      height: 20px;
+      opacity: 1; } }
 .process {
   width: 100%;
   height: auto;
@@ -710,7 +822,7 @@ html {
     position: relative; }
     .process .process_content:before {
       content: "";
-      right: -200px;
+      right: -160px;
       top: -250px;
       width: 310px;
       height: 320px;
@@ -723,7 +835,9 @@ html {
       -webkit-animation: process_content ease-in-out 20s infinite alternate;
               animation: process_content ease-in-out 20s infinite alternate;
       -webkit-transition: 2s;
-      transition: 2s; }
+      transition: 2s;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
     .process .process_content:after {
       content: "";
       left: -200px;
@@ -779,7 +893,7 @@ html {
         .process .process_content .process_main .left_side .process_item, .process .process_content .process_main .left_side .item1 {
           height: 50%;
           margin-right: 50px;
-          font-size: 20px;
+          font-size: 18px;
           font-family: "Gotham Pro";
           color: white;
           text-transform: uppercase;
@@ -913,6 +1027,59 @@ html {
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
+.process .process_content:before {
+  width: 260px;
+  height: 270px; }
+
+@media (max-width: 1280px) {
+  .process .process_content .process_main .left_side .process_item p,
+  .process .process_content .process_main .right_side .process_item p {
+    font-size: 16px; }
+
+  .process .process_content .process_main .right_side {
+    width: 25vw; } }
+@media (max-width: 900px) {
+  .process .process_content:before,
+  .process .process_content:after {
+    display: none; }
+
+  .process .process_content .process_main {
+    padding-top: 160px; } }
+@media (max-width: 840px) {
+  .process .process_content h2:after {
+    font-size: 120px; }
+
+  .process .process_content .process_main {
+    padding-top: 180px; } }
+@media (max-width: 768px) {
+  .process .process_content h2:after {
+    font-size: 110px; }
+
+  .process .process_content .process_main {
+    padding-top: 200px; } }
+@media (max-width: 680px) {
+  .process .process_content h2 {
+    font-size: 35px; }
+
+  .process .process_content h2:after {
+    font-size: 100px;
+    left: -10vw; } }
+@media (max-width: 600px) {
+  .process .process_content h2:after {
+    font-size: 90px; } }
+@media (max-width: 540px) {
+  .process .process_content h2:after {
+    font-size: 80px; } }
+@media (max-width: 480px) {
+  .process .process_content h2 {
+    font-size: 25px; }
+
+  .process .process_content h2:after {
+    font-size: 70px;
+    left: -12vw; } }
+@media (max-width: 400px) and (min-width: 360px) {
+  .process .process_content h2:after {
+    font-size: 60px; } }
 .questions {
   width: 100%;
   height: auto;
@@ -950,7 +1117,7 @@ html {
         text-transform: uppercase;
         line-height: 0.87;
         text-align: left;
-        z-index: 98; }
+        z-index: -1; }
     .questions .questions_content .questions_main {
       margin: 50px 0 0; }
     .questions .questions_content .accordion {
@@ -991,6 +1158,71 @@ html {
 @media (max-width: 1700px) {
   .questions .questions_content h2:after {
     font-size: 125px; } }
+@media (max-width: 1600px) {
+  .questions .questions_content h2:after {
+    font-size: 120px; } }
+@media (max-width: 1440px) {
+  .questions .questions_content h2:after {
+    font-size: 110px; } }
+@media (max-width: 1300px) {
+  .questions .questions_content h2:after {
+    font-size: 100px; } }
+@media (max-width: 1140px) {
+  .questions .questions_content h2:after {
+    font-size: 90px; } }
+@media (max-width: 1024px) {
+  .questions .questions_content h2:after {
+    font-size: 85px;
+    left: 15vw; } }
+@media (max-width: 900px) {
+  .questions .questions_content h2:after {
+    left: 10vw; } }
+@media (max-width: 768px) {
+  .questions .questions_content h2:after {
+    font-size: 80px;
+    left: -5vw; } }
+@media (max-width: 600px) {
+  .questions .questions_content h2:after {
+    font-size: 70px;
+    left: -10vw; }
+
+  .questions .questions_content .accordion {
+    font-size: 16px; }
+
+  .questions .questions_content .panel {
+    font-size: 14px; } }
+@media (max-width: 500px) {
+  .questions .questions_content h2 {
+    font-size: 35px; }
+
+  .questions .questions_content h2:after {
+    font-size: 60px;
+    left: -14vw; }
+
+  .questions .questions_content .accordion {
+    font-size: 14px; }
+
+  .questions .questions_content .accordion:after {
+    margin-right: 10px; }
+
+  .questions .questions_content .panel {
+    font-size: 12px; } }
+@media (max-width: 440px) {
+  .questions .questions_content h2 {
+    font-size: 25px; }
+
+  .questions .questions_content h2:after {
+    font-size: 50px;
+    left: -12vw; }
+
+  .questions .questions_content .accordion {
+    font-size: 11px; }
+
+  .questions .questions_content .accordion:after {
+    margin-right: 0px; }
+
+  .questions .questions_content .panel {
+    font-size: 10px; } }
 .prices {
   width: 100%;
   height: auto;
@@ -1318,17 +1550,23 @@ html {
   .portfolio .see_more {
     padding: 50px 0; } }
 @media (max-width: 1140px) {
+  .portfolio h2 {
+    font-size: 56px; }
+
   .portfolio .portfolio_subtitle {
     width: 45vw; } }
 @media (max-width: 1024px) {
   .portfolio .portfolio_subtitle {
     width: 48vw; } }
 @media (max-width: 940px) {
+  .portfolio h2 {
+    font-size: 50px; }
+
   .portfolio .portfolio_subtitle {
     width: 58vw; } }
 @media (max-width: 800px) {
   .portfolio h2 {
-    font-size: 50px;
+    font-size: 46px;
     padding-top: 70px;
     padding-bottom: 25px; }
 
@@ -1450,13 +1688,20 @@ html {
   .get_in .get_in_content .get_left_side h2:before,
   .get_in .get_in_content .get_left_side h2:after {
     font-size: 150px; } }
-@media (max-width: 1300px) {
+@media (max-width: 1600px) {
+  .get_in .get_in_content .get_left_side h2 {
+    font-size: 46px; }
+
+  .get_in .get_in_content .get_left_side h2:before,
+  .get_in .get_in_content .get_left_side h2:after {
+    font-size: 130px; } }
+@media (max-width: 1380px) {
   .get_in .get_in_content .get_left_side h2:before,
   .get_in .get_in_content .get_left_side h2:after {
     font-size: 120px; }
 
   .get_in .get_in_content .get_left_side h2 {
-    font-size: 45px;
+    font-size: 42px;
     margin: 180px 10% 200px 18%;
     padding-left: 12%; }
 
@@ -1619,8 +1864,7 @@ html {
     font-size: 12px; } }
 @media (max-width: 400px) and (min-width: 360px) {
   .get_in .get_in_content .get_left_side h2 {
-    margin-top: 100px;
-    font-size: 24px; }
+    margin-top: 100px; }
 
   .get_in .get_in_content .get_left_side h2:before {
     font-size: 58px;
@@ -1679,6 +1923,9 @@ html {
     width: 95%;
     padding: 60px 0; } }
 @media (max-width: 500px) and (min-width: 360px) {
+  .footer .footer_social {
+    padding: 45px 0; }
+
   .footer .footer_social li a {
     width: 30px;
     height: 30px;
