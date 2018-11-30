@@ -493,7 +493,7 @@ html {
     right: -25%; } }
 @media (max-width: 600px) {
   .home .home_content .home_right .social_fix {
-    right: -29%; } }
+    right: -28%; } }
 @media (max-width: 540px) {
   .home .home_content .home_right .social_fix {
     right: -31%; } }
@@ -1035,6 +1035,9 @@ html {
   height: 270px; }
 
 @media (max-width: 1280px) {
+  .process {
+    padding: 100px 0; }
+
   .process .process_content {
     width: 75%; }
 
@@ -1088,10 +1091,18 @@ html {
     font-size: 35px; }
 
   .process .process_content h2:after {
-    font-size: 110px; }
+    font-size: 110px;
+    left: -2.5vw; }
 
   .process .process_content .process_main {
-    padding-top: 180px; } }
+    padding-top: 180px; }
+
+  .process .process_content .process_main .left_side .process_item p,
+  .process .process_content .process_main .right_side .process_item p {
+    font-size: 12px; } }
+@media (max-width: 726px) {
+  .process .process_content .process_main .right_side .item2 p {
+    top: 35px; } }
 @media (max-width: 768px) {
   .process .process_content .process_main {
     padding-top: 200px; } }
@@ -1100,24 +1111,86 @@ html {
     font-size: 35px; }
 
   .process .process_content h2:after {
-    font-size: 100px;
-    left: -10vw; } }
+    font-size: 100px; } }
 @media (max-width: 600px) {
+  .process .process_content .process_main {
+    padding-top: 150px; }
+
   .process .process_content h2:after {
-    font-size: 90px; } }
+    font-size: 90px; }
+
+  .process .process_content {
+    width: 85%; }
+
+  .process .process_content .process_main .right_side,
+  .process .process_content .process_main .left_side {
+    width: 34vw; }
+
+  .process .process_content .process_main .center {
+    width: 20vw; }
+
+  .process .process_content .process_main .left_side .item1:before,
+  .process .process_content .process_main .left_side .item3:before {
+    font-size: 120px; }
+
+  .process .process_content .process_main .right_side .item4:before,
+  .process .process_content .process_main .right_side .item2:before {
+    font-size: 120px; } }
 @media (max-width: 540px) {
   .process .process_content h2:after {
-    font-size: 80px; } }
+    font-size: 80px; }
+
+  .process .process_content .process_main .right_side {
+    top: 30px; }
+
+  .process .process_content .process_main .left_side .process_item p,
+  .process .process_content .process_main .right_side .process_item p {
+    font-size: 10px; }
+
+  .process .process_content .process_main .left_side .item3:before {
+    font-size: 90px; }
+
+  .process .process_content .process_main .right_side .item4:before,
+  .process .process_content .process_main .right_side .item2:before {
+    font-size: 90px; }
+
+  .process .process_content .process_main .right_side .process_item {
+    margin-left: 30px; }
+
+  .process .process_content .process_main .left_side .process_item {
+    margin-right: 30px; }
+
+  .process .process_content .process_main .right_side .process_item {
+    height: 45%; }
+
+  .process .process_content .process_main .right_side .process_item {
+    top: -20px; }
+
+  .process .process_content .process_main .right_side .item2 p {
+    top: 50px; }
+
+  .process .process_content .process_main .right_side .item4 p {
+    top: 65px; } }
 @media (max-width: 480px) {
   .process .process_content h2 {
     font-size: 25px; }
 
   .process .process_content h2:after {
-    font-size: 70px;
-    left: -12vw; } }
-@media (max-width: 400px) and (min-width: 360px) {
+    font-size: 70px; } }
+@media (max-width: 420px) and (min-width: 360px) {
   .process .process_content h2:after {
-    font-size: 60px; } }
+    font-size: 60px; }
+
+  .process .process_content .process_main .left_side .item1:before,
+  .process .process_content .process_main .left_side .item3:before {
+    font-size: 70px; }
+
+  .process .process_content .process_main .right_side .item4:before,
+  .process .process_content .process_main .right_side .item2:before {
+    font-size: 70px; }
+
+  .process .process_content .process_main .right_side .process_item {
+    top: -60px; } }
 .questions {
   width: 100%;
   height: auto;
